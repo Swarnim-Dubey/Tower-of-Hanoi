@@ -1,7 +1,7 @@
 # A = start
 # C = ending
 # B = medium
-
+# n = number of disks
 
 def tower_of_hanoi(n, start, medium, ending):
     if n == 1:
@@ -16,3 +16,4 @@ def tower_of_hanoi(n, start, medium, ending):
 
 n = int(input("Enter value for n : "))
 tower_of_hanoi(n, 'A', 'B', 'C')
+
